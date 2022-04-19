@@ -9,7 +9,7 @@ headless: true
 # Order that this section appears on the page.
 weight: 40
 
-title: Experience
+title: Employment
 subtitle:
 
 # Date format for experience
@@ -22,29 +22,35 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
-  - title: CEO
-    company: GenCoin
-    company_url: ''
-    company_logo: org-gc
-    location: California
-    date_start: '2021-01-01'
+  - title: 'Research Assistant'
+    company: 'Hanover Music Lab'
+    company_url: 'https://www.hml.hmtm-hannover.de/de/herzlich-willkommen/'
+    company_logo: hml
+    location: 'Hanover, Germany'
+    date_start: '2022-03-01'
     date_end: ''
     description: |2-
         Responsibilities include:
         
-        * Analysing
+        * Data visualisation
         * Modelling
-        * Deploying
+        * Paper writing
         
-  - title: Professor of Semiconductor Physics
-    company: University X
-    company_url: ''
-    company_logo: org-x
-    location: California
-    date_start: '2016-01-01'
-    date_end: '2020-12-31'
-    description: Taught electronic engineering and researched semiconductor physics.
-
+  - title: 'Research Assistant'
+    company: 'Goldsmiths University'
+    company_url: 'https://www.gold.ac.uk'
+    company_logo: goldsmiths
+    location: 'London, UK'
+    date_start: '2022-03-01'
+    date_end: '2022-06-02'
+    description: |2-
+        Responsibilities included:
+        
+        * Data visualisation
+        * Modelling
+        * Experiment design, construction and data collection
+        * Paper writing
+        * AWS server management
 design:
   columns: '2'
 ---

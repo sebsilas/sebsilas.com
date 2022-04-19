@@ -17,13 +17,6 @@ content:
   filters:
     folders:
       - publication
-    tag: ''
-    category: ''
-    publication_type: ''
-    author: ''
-    exclude_featured: true
-    exclude_future: false
-    exclude_past: false
   # Choose how many pages you would like to display (0 = all pages)
   count: 0
   # Choose how many pages you would like to offset by
@@ -35,7 +28,3 @@ design:
   view: citation
   columns: '2'
 ---
-
-{{% callout note %}}
-Quickly discover relevant content by [filtering publications](./publication/).
-{{% /callout %}}
