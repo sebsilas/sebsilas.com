@@ -7,7 +7,7 @@ address:
   country: United States
   
 authors: [Sebastian Silas, Daniel Müllensiefen, David Baker]
-date: "2022-08-04T13:00:00Z"
+
 event: SMPC 2022
 event_url: https://musicperception.org/smpc-conference.html
 featured: true
@@ -16,7 +16,7 @@ image:
   focal_point: Right
 
 tags: ['music and advertising']
-title: " SMPC 2022: Changing the emotional-semantic perception of visual scenes with music: A large-scale investigation into the effects of audio branding"
+title: 'Changing the emotional-semantic perception of visual scenes with music: A large-scale investigation into the effects of audio branding.'
 
 
 ---
