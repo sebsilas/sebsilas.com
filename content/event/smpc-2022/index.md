@@ -16,7 +16,7 @@ image:
   focal_point: Right
 
 tags: ['music and advertising']
-title: "SMPC 2022: Changing the emotional-semantic perception of visual scenes with music: A large-scale investigation into the effects of audio branding"
+title: " SMPC 2022: Changing the emotional-semantic perception of visual scenes with music: A large-scale investigation into the effects of audio branding"
 
 
 ---
