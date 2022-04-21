@@ -16,7 +16,15 @@ publishDate: "2022-04-09T00:00:00Z"
 slides: example
 summary: "Prior research studying the relationship between music training (MT) and more general cognitive faculties, such as visuospatial working memory (VSWM), often fails to include tests of musical memory..."
 tags:
-- working memory, music training, visuospatial working memory, causality
+  - working memory
+  - music training
+  - visuospatial working memory
+  - causality
+  
 title: "The associations between music training, musical working memory and visuospatial working memory: an opportunity for causal modeling."
+
+links:
+- name: Working Memory and Causality Paper
+  url: https://online.ucpress.edu/mp/article/39/4/401/123460/The-Associations-Between-Music-Training-Musical
 
 ---

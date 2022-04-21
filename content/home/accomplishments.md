@@ -10,7 +10,7 @@ headless: true
 weight: 50
 
 # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
-title: 'Awards and Accomplishments'
+title: 'Awards'
 subtitle:
 
 # Date format
@@ -25,14 +25,14 @@ date_format: Jan 2006
 item:
 - date_end: "2024-06-01"
   date_start: "2022-06-01"
-  organization: Studienstiftung
+  organization: 'Studienstiftung des deutschen Volkes'
   organization_url: 'https://www.studienstiftung.de'
   title: PhD Scholarship
 - date_end: "2021-12-01"
   date_start: "2020-12-01"
-  organization: DAAD
+  organization: "DAAD: German Academic Exchange Service"
   organization_url: 'https://www.daad.de/en/'
-  title: PhD Scholarship
+  title: "PhD Scholarship"
 
 design:
   columns: '2' 

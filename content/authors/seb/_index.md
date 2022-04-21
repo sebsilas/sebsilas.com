@@ -3,7 +3,7 @@ bio: My research interests centre around computational approaches to musical lea
 education:
   courses:
   - course: PhD in Musicology (in completion)
-    institution: Hochschule für Musik, Theater und Medien
+    institution: Hochschule für Musik, Theater und Medien, Hannover
     year: 2024
   - course: MSc in Computational Cognitive Neuroscience
     institution: Goldsmiths, University of London
@@ -54,7 +54,7 @@ He maintains the [musicassessr](https://github.com/sebsilas/musicassessr) and [i
 - [Playing By Ear Test (PBET)](https://github.com/sebsilas/PBET)
 - [Singing Ability Assessment (SAA)](https://github.com/sebsilas/SAA)
 - [Sight Reading Test (SRT)](https://github.com/sebsilas/SRT)
-- [Sight-Singing Test (SST)](https://github.com/sebsilas/SST)
+- [Sight Singing Test (SST)](https://github.com/sebsilas/SST)
 - [Pitch Discrimination Test (PDT)](https://github.com/sebsilas/PDT)
 
 

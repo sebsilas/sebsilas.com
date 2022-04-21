@@ -16,7 +16,7 @@ links:
 
 
 tags:
-- musical imagery
+  - musical imagery
 
 title: An efficient and adaptive test of auditory mental imagery
 

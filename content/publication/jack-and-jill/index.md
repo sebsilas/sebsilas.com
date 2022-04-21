@@ -25,5 +25,9 @@ summary: The development of a new visuospatial working memory test.
 
 title: "The Jack and Jill Adaptive Working Memory Task: Construction, Calibration and Validation."
 
+tags:
+  - working memory
+  - test calibration
+
 ---
 

@@ -4,7 +4,7 @@ external_link: "https://richard-wagner3-0.de/en/index_en.html"
 image:
   caption: Wagner 3.0
   focal_point: Smart
-summary: Immersive sound environments and their potential for creating musical experience and cultural participation.
+summary: At Hanover Music Lab, I work as a research assistant on a project which seeks to understand immersive sound environments and their potential for creating musical experience and cultural participation.
 tags: 
 - immersive audio
 - 3d sound

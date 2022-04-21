@@ -32,8 +32,8 @@ experience:
     description: |2-
         Responsibilities include:
         
-        * Data visualisation
-        * Modelling
+        * Data analysis and visualisation
+        * Statistical modelling
         * Paper writing
         
   - title: 'Research Assistant'
@@ -46,11 +46,11 @@ experience:
     description: |2-
         Responsibilities included:
         
-        * Data visualisation
-        * Modelling
+        * Data analysis and visualisation
+        * Statistical modelling
         * Experiment design, construction and data collection
         * Paper writing
-        * AWS server management
+        * Amazon Web Services (AWS) server management
 design:
   columns: '2'
 ---
