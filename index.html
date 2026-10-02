@@ -132,6 +132,9 @@ section{padding-block:72px 8px}
 .pos{display:grid;gap:0;border-top:1px solid var(--line)}
 .pos>div{display:grid;grid-template-columns:190px minmax(0,1fr) auto;gap:8px 24px;padding:18px 0;border-bottom:1px solid var(--line);align-items:center}
 .pos .lg{height:68px;border-radius:8px;background:var(--panel);border:1px solid var(--line);display:grid;place-items:center;padding:8px 12px;overflow:hidden}
+a.lg,a.media.logo{transition:border-color .15s,box-shadow .15s}
+a.lg:hover{border-color:var(--ink2)}
+a.media.logo:hover{box-shadow:inset 0 0 0 2px var(--line)}
 .pos .lg img{max-width:100%;max-height:100%;object-fit:contain;display:block}
 .pos .lg.mono{font:600 15px/1.05 var(--mono);color:#23232b;letter-spacing:.04em;text-align:center}
 .pos .lg.mono small{display:block;font:500 8.5px var(--mono);letter-spacing:.12em;color:#6b6a72;margin-top:3px}
@@ -320,7 +323,7 @@ footer{padding-block:64px 40px;font:12px var(--mono);color:var(--muted);display:
         </div>
       </article>
       <article class="role" style="--c:var(--orange)">
-        <div class="media logo"><img src="img/soundout.png" alt="SoundOut"></div>
+        <a class="media logo" href="https://soundout.com" aria-label="SoundOut website"><img src="img/soundout.png" alt="SoundOut"></a>
         <div class="head"><i></i><h3>Data Scientist</h3></div>
         <div class="body">
           <p>Sonic branding: modelling how audiences respond to music and sonic logos, and building the data products and testing platforms behind it.</p>
@@ -344,7 +347,7 @@ footer{padding-block:64px 40px;font:12px var(--mono);color:var(--muted);display:
     <div class="sh"><div class="label">Positions</div><h2>Current positions</h2></div>
     <div class="pos">
       <div style="--c:var(--blue)">
-        <div class="lg"><img src="img/uhh.png" alt="Universität Hamburg"></div>
+        <a class="lg" href="https://www.kulturwissenschaften.uni-hamburg.de/en/sm/personen/silas.html" aria-label="My University of Hamburg profile"><img src="img/uhh.png" alt="Universität Hamburg"></a>
         <div><b>Postdoctoral Researcher</b><span>Institute of Systematic Musicology, University of Hamburg</span></div>
         <em>Research</em>
       </div>
@@ -354,7 +357,7 @@ footer{padding-block:64px 40px;font:12px var(--mono);color:var(--muted);display:
         <em>Teaching</em>
       </div>
       <div style="--c:var(--orange)">
-        <div class="lg"><img src="img/soundout.png" alt="SoundOut"></div>
+        <a class="lg" href="https://soundout.com" aria-label="SoundOut website"><img src="img/soundout.png" alt="SoundOut"></a>
         <div><b>Data Scientist, Sonic Branding</b><span>SoundOut</span></div>
         <em>Industry</em>
       </div>
