@@ -163,6 +163,13 @@ section{padding-block:72px 8px}
 .chip.k{font-weight:600}
 .chip sup{font:600 10px var(--mono);color:var(--c);border:1px solid color-mix(in srgb,var(--c) 50%,transparent);border-radius:999px;padding:1px 5px;line-height:1.2}
 .chip:hover,.chip[aria-expanded="true"]{border-color:var(--c);background:color-mix(in srgb,var(--c) 20%,var(--card))}
+.apps{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin-top:4px}
+.app{display:grid;grid-template-columns:150px minmax(0,1fr);gap:16px;align-items:center;background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px}
+.app .lg{height:76px;border-radius:7px;background:var(--panel);display:grid;place-items:center;padding:8px 12px}
+.app .lg img{max-width:100%;max-height:60px;width:auto;height:auto;object-fit:contain;display:block}
+.app b{display:block;font:600 14px var(--mono);letter-spacing:.02em;margin-bottom:2px}
+.app p{margin:0;font-size:14px;line-height:1.45;color:var(--ink2)}
+@media (max-width:760px){.apps{grid-template-columns:1fr}.app{grid-template-columns:110px minmax(0,1fr)}}
 .flow{font:22px var(--hand);color:var(--muted);padding:2px 0 2px 242px;line-height:1}
 .hint{font:12.5px var(--mono);color:var(--muted);margin:0 0 6px}
 @media (max-width:760px){.tier{grid-template-columns:1fr;gap:12px}.flow{padding-left:0}}
@@ -366,6 +373,10 @@ footer{padding-block:64px 40px;font:12px var(--mono);color:var(--muted);display:
           <div class="chips">
             <button type="button" class="chip k" data-p="pbelong mindsets isme24 adapt23 gamify23 massr23">Music education applications</button>
             <button type="button" class="chip k" data-p="jar jnmr paca">Sonic branding</button>
+          </div>
+          <div class="apps" aria-label="Apps">
+            <div class="app"><div class="lg"><img src="img/songbird.png" alt="SongBird"></div><div><b>SongBird</b><p>An app for choir singers to learn their parts: listen to a melody, sing it back, and practise it again when it starts to fade.</p></div></div>
+            <div class="app"><div class="lg"><img src="img/slonimsky.png" alt="Slonimsky"></div><div><b>Slonimsky</b><p>Adaptive ear training: hear a melody, play it back by ear, and the app chooses what to practise next from a model of your learning.</p></div></div>
           </div>
         </div>
       </div>
