@@ -1,0 +1,158 @@
+{
+ "updated": "2026-10-02",
+ "source": "Crossref",
+ "items": [
+  {
+   "doi": "10.1037/aca0000870",
+   "year": 2026,
+   "type": "journal-article",
+   "cites": 0,
+   "title": "The recall and recognition of sonic logos",
+   "authors": [
+    "Sebastian Silas",
+    "Megan Robinson",
+    "David John Baker",
+    "Peter M. C. Harrison",
+    "Nori Jacoby",
+    "Daniel Müllensiefen"
+   ],
+   "venue": "Psychology of Aesthetics, Creativity, and the Arts",
+   "topics": [
+    "branding",
+    "memory"
+   ]
+  },
+  {
+   "doi": "10.1080/09298215.2025.2607362",
+   "year": 2026,
+   "type": "journal-article",
+   "cites": 1,
+   "title": "An unsupervised feature selection approach for finding diverse emotional-semantic representations in sonic branding music",
+   "authors": [
+    "Sebastian Silas",
+    "David Baker",
+    "Antoine Sachet",
+    "Daniel Müllensiefen"
+   ],
+   "venue": "Journal of New Music Research",
+   "topics": [
+    "branding",
+    "models"
+   ]
+  },
+  {
+   "doi": "10.2501/JAR-2024-013",
+   "year": 2024,
+   "type": "journal-article",
+   "cites": 4,
+   "title": "Musical manipulation of visual scenes in video, film and TV advertisements: A large-scale investigation into the implicit effects of sonic branding",
+   "authors": [
+    "Sebastian Silas",
+    "David John Baker",
+    "Daniel Müllensiefen"
+   ],
+   "venue": "Journal of Advertising Research",
+   "topics": [
+    "branding"
+   ]
+  },
+  {
+   "doi": "10.3758/s13428-023-02188-0",
+   "year": 2023,
+   "type": "journal-article",
+   "cites": 8,
+   "title": "Singing Ability Assessment: Development and validation of a singing test based on item response theory and a general open-source software environment for singing data",
+   "authors": [
+    "Sebastian Silas",
+    "Daniel Müllensiefen",
+    "Reinhard Kopiez"
+   ],
+   "venue": "Behavior Research Methods",
+   "topics": [
+    "ability",
+    "models"
+   ]
+  },
+  {
+   "doi": "10.1525/mp.2023.41.2.77",
+   "year": 2023,
+   "type": "journal-article",
+   "cites": 5,
+   "title": "Learning and recalling melodies: A computational investigation using the melodic recall paradigm",
+   "authors": [
+    "Sebastian Silas",
+    "Daniel Müllensiefen"
+   ],
+   "venue": "Music Perception",
+   "topics": [
+    "memory",
+    "models"
+   ]
+  },
+  {
+   "doi": "10.1525/mp.2022.39.4.401",
+   "year": 2022,
+   "type": "journal-article",
+   "cites": 19,
+   "title": "The associations between music training, musical working memory, and visuospatial working memory: An opportunity for causal modeling",
+   "authors": [
+    "Sebastian Silas",
+    "Daniel Müllensiefen",
+    "Rebecca Gelding",
+    "Klaus Frieler",
+    "Peter M. C. Harrison"
+   ],
+   "venue": "Music Perception",
+   "topics": [
+    "memory",
+    "ability"
+   ]
+  },
+  {
+   "doi": "10.1371/journal.pone.0262200",
+   "year": 2022,
+   "type": "journal-article",
+   "cites": 14,
+   "title": "The Jack and Jill adaptive working memory task: Construction, calibration and validation",
+   "authors": [
+    "Elina Tsigeman",
+    "Sebastian Silas",
+    "Klaus Frieler",
+    "Maxim Likhanov",
+    "Rebecca Gelding",
+    "Yulia Kovas",
+    "Daniel Müllensiefen"
+   ],
+   "venue": "PLOS ONE",
+   "topics": [
+    "memory",
+    "ability"
+   ]
+  },
+  {
+   "doi": "10.1007/s00426-020-01322-3",
+   "year": 2021,
+   "type": "journal-article",
+   "cites": 10,
+   "title": "An efficient and adaptive test of auditory mental imagery",
+   "authors": [
+    "Rebecca W. Gelding",
+    "Peter M. C. Harrison",
+    "Sebastian Silas",
+    "Blake W. Johnson",
+    "William F. Thompson",
+    "Daniel Müllensiefen"
+   ],
+   "venue": "Psychological Research",
+   "topics": [
+    "memory",
+    "ability"
+   ]
+  }
+ ],
+ "scholar": {
+  "citations": 128,
+  "asof": "2026-10-02"
+ },
+ "cite_source": "Crossref"
+}
