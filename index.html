@@ -678,6 +678,11 @@ document.addEventListener('click',e=>{if(!pop.hidden&&!pop.contains(e.target))cl
 document.addEventListener('keydown',e=>{if(e.key==='Escape'&&!pop.hidden){const c=openChip;closePop(true);c&&c.focus()}});
 addEventListener('resize',()=>closePop(true));
 
+/* ---------- external links open in a new tab ---------- */
+const markExt=root=>root.querySelectorAll('a[href^="http"]').forEach(a=>{if(a.host!==location.host){a.target='_blank';a.rel='noopener noreferrer'}});
+markExt(document);
+new MutationObserver(ms=>ms.forEach(m=>m.addedNodes.forEach(n=>{if(n.nodeType===1){if(n.matches('a[href^="http"]'))markExt(n.parentNode);else markExt(n)}}))).observe(document.body,{childList:true,subtree:true});
+
 /* ---------- copy email ---------- */
 document.getElementById('copy').addEventListener('click',e=>{const t=document.getElementById('email').textContent;const b=e.currentTarget;
   const ok=()=>{b.textContent='copied';setTimeout(()=>b.textContent='copy',1600)};
