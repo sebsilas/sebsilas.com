@@ -46,10 +46,16 @@ header.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background
 header.top .wrap{display:flex;align-items:center;gap:18px;height:52px}
 .brand{font:600 14px var(--mono);color:var(--ink);text-decoration:none;letter-spacing:.02em}
 .brand span{color:var(--purple)}
-nav.links{display:flex;gap:18px;margin-left:auto;overflow-x:auto;scrollbar-width:none}
+nav.links{display:flex;align-items:center;gap:18px;margin-left:auto;overflow-x:auto;scrollbar-width:none}
 nav.links::-webkit-scrollbar{display:none}
 nav.links a{font:13px var(--mono);color:var(--ink2);text-decoration:none;white-space:nowrap}
 nav.links a:hover{color:var(--ink)}
+nav.links a.cta{color:var(--bg);background:var(--purple);padding:5px 12px;border-radius:999px;font-weight:500}
+nav.links a.cta:hover{color:var(--bg);filter:brightness(1.08)}
+.hire{display:inline-flex;flex-wrap:wrap;align-items:center;gap:6px 12px;justify-self:start;margin-top:4px;padding:12px 18px;border-radius:10px;
+  border:1.5px solid var(--purple);background:color-mix(in srgb,var(--purple) 8%,var(--card));color:var(--ink);text-decoration:none;font:15px/1.35 var(--sans)}
+.hire b{font:600 14px var(--mono);color:var(--purple)}
+.hire:hover{background:color-mix(in srgb,var(--purple) 16%,var(--card))}
 @media (max-width:720px){nav.links{gap:14px;margin-left:0}.brand{display:none}}
 
 /* hero */
@@ -256,7 +262,7 @@ footer{padding-block:64px 40px;font:12px var(--mono);color:var(--muted);display:
 <header class="top"><div class="wrap">
   <a class="brand" href="#top">sebsilas<span>.</span>com</a>
   <nav class="links" aria-label="Sections">
-    <a href="#about">about</a><a href="#roles">roles</a><a href="#positions">positions</a><a href="#research">research</a><a href="#publications">publications</a><a href="#awards">awards</a><a href="#contact">contact</a>
+    <a href="#about">about</a><a href="#roles">roles</a><a href="#positions">positions</a><a href="#research">research</a><a href="#publications">publications</a><a href="#awards">awards</a><a href="#contact">contact</a><a class="cta" href="services.html">services</a>
   </nav>
 </div></header>
 
@@ -272,6 +278,7 @@ footer{padding-block:64px 40px;font:12px var(--mono);color:var(--muted);display:
     </div>
     <p class="lede">I study how people <b>perceive, remember, and learn</b> music, and how that knowledge can be <b>put to work</b>, from music education to sonic branding. I build the methods, models, and tools that make music psychological theory actionable in the real world.</p>
     <div class="loc"><span>Hamburg</span><span>Hannover</span><span>London</span></div>
+    <a class="hire" href="services.html">Need help with a music psychology project? <b>See what I can do for you →</b></a>
     </div>
     <figure class="portrait"><img src="img/portrait.jpg" alt="Portrait of Sebastian Silas" width="560" height="700"></figure>
   </div>
