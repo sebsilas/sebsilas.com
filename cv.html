@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>Services · Seb Silas</title>
-<meta name="description" content="Music psychology consulting from Dr. Seb Silas: study design, statistical modelling, test development, sonic branding research and music learning technology.">
+<title>CV · Seb Silas</title>
+<meta name="description" content="Curriculum vitae of Dr. Seb Silas: roles, education, awards, publications and talks in music psychology and data science.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap">
@@ -257,90 +257,73 @@ a.media.logo:hover{box-shadow:inset 0 0 0 2px var(--line)}
 footer{padding-block:64px 40px;font:12px var(--mono);color:var(--muted);display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px}
 </style>
 <style>
-/* services page */
-.sv-hero{padding-block:56px 8px;display:grid;gap:18px;max-width:760px}
-.sv-hero h1{font:600 clamp(32px,4.8vw,54px)/1.05 var(--mono);letter-spacing:-.03em}
-.sv-hero p{margin:0;font:300 clamp(18px,2.1vw,22px)/1.5 var(--sans);color:var(--ink)}
-.svc{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
-@media (max-width:900px){.svc{grid-template-columns:repeat(2,minmax(0,1fr))}}
-@media (max-width:560px){.svc{grid-template-columns:1fr}}
-.svc article{background:var(--card);border:1px solid var(--line);border-top:3px solid var(--c);border-radius:0 0 10px 10px;padding:18px 20px 20px;display:grid;gap:8px;align-content:start}
-.svc h3{font:600 15px/1.3 var(--mono);color:var(--ink)}
-.svc p{margin:0;font-size:14.5px;line-height:1.55;color:var(--ink2)}
-.svc .ex{font:12px/1.5 var(--mono);color:var(--muted)}
-.who{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:32px}
-@media (max-width:760px){.who{grid-template-columns:1fr}}
-.who p{margin:0;color:var(--ink2);font-size:16px;line-height:1.6}
-.who ul{margin:0;padding-left:1.1em;display:grid;gap:6px;color:var(--ink2);font-size:15px}
-.ask{background:var(--card);border:1.5px solid var(--purple);border-radius:12px;padding:26px 28px;display:grid;gap:14px;max-width:760px}
-.ask h2{font:500 clamp(24px,3vw,32px)/1.2 var(--sans)}
-.ask p{margin:0;color:var(--ink2)}
-.ask .mail code{font-size:17px}
-.ask a.btn{justify-self:start;font:600 14px var(--mono);color:var(--bg);background:var(--purple);padding:10px 16px;border-radius:999px;text-decoration:none}
-.ask ol{margin:0;padding-left:1.2em;color:var(--ink2);font-size:15px;display:grid;gap:4px}
-.back{font:13px var(--mono)}
+/* CV page */
+.cv-head{padding-block:48px 28px;display:grid;grid-template-columns:minmax(0,1fr) auto;gap:20px 40px;align-items:end;border-bottom:2px solid var(--ink)}
+.cv-head h1{font:600 clamp(34px,5vw,58px)/1 var(--mono);letter-spacing:-.03em}
+.cv-head h1 .dr{font-weight:400;color:var(--muted);margin-right:.25em}
+.cv-head .tag{font:500 14px/1.5 var(--mono);color:var(--ink2);margin-top:12px}
+.cv-head .cl{display:grid;gap:4px;font:13.5px/1.5 var(--mono);text-align:right}
+.cv-head .cl a{color:var(--ink2);text-decoration:none}.cv-head .cl a:hover{color:var(--purple)}
+@media (max-width:720px){.cv-head{grid-template-columns:1fr}.cv-head .cl{text-align:left}}
+.cv-profile{margin:28px 0 0;font:300 clamp(17px,1.9vw,20px)/1.6 var(--sans);color:var(--ink);max-width:72ch}
+.cv-toc{display:flex;flex-wrap:wrap;gap:8px;margin:26px 0 8px}
+.cv-toc a{font:500 12.5px var(--mono);color:var(--ink2);text-decoration:none;border:1px solid var(--line);border-radius:999px;padding:5px 11px;background:var(--card)}
+.cv-toc a:hover{border-color:var(--ink2);color:var(--ink)}
+.cv-sec{display:grid;grid-template-columns:200px minmax(0,1fr);gap:12px 40px;padding:34px 0 30px;border-bottom:1px solid var(--line);scroll-margin-top:60px}
+.cv-h{font:600 13px/1.4 var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--c);position:sticky;top:72px;align-self:start}
+@media (max-width:760px){.cv-sec{grid-template-columns:1fr}.cv-h{position:static}}
+.cv-b{display:grid;gap:0;min-width:0;position:relative}
+.ent{display:grid;grid-template-columns:120px minmax(0,1fr);gap:4px 24px;padding:0 0 22px;position:relative}
+.ent:last-child{padding-bottom:0}
+.ent .yr{font:500 13px/1.6 var(--mono);color:var(--muted);font-variant-numeric:tabular-nums}
+.ent .bd{border-left:1.5px solid var(--line);padding-left:20px;position:relative}
+.ent .bd::before{content:"";position:absolute;left:-6px;top:6px;width:10px;height:10px;border-radius:50%;background:var(--bg);border:2px solid var(--c)}
+.ent h3{font:600 16px/1.35 var(--sans)}
+.ent .org{font:13.5px/1.5 var(--mono);color:var(--ink2);margin-top:2px}
+.ent p{margin:6px 0 0;font-size:15px;line-height:1.55;color:var(--ink2);max-width:64ch}
+@media (max-width:560px){.ent{grid-template-columns:1fr}.ent .bd{margin-top:2px}}
+.refs{list-style:none;margin:0;padding:0;display:grid;gap:12px}
+.refs li{display:grid;grid-template-columns:56px minmax(0,1fr);gap:16px;font-size:14.5px;line-height:1.55;color:var(--ink2)}
+.refs .yr{font:500 13px/1.7 var(--mono);color:var(--muted)}
+.refs b{color:var(--ink);font-weight:600}
+.refs a.lk{font:500 12px var(--mono);white-space:nowrap}
+.refs .st{font:500 11px var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--purple);margin-left:6px;white-space:nowrap}
+.sub{font:600 12px var(--mono);letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin:22px 0 10px}
+.sub:first-child{margin-top:0}
+@media print{
+  header.top,.cv-toc,footer{display:none}
+  body{background:#fff;background-image:none;padding:0;font-size:12px}
+  .cv-sec{break-inside:avoid-page;padding:16px 0}.cv-h{position:static}
+  a{color:inherit;text-decoration:none}
+}
 </style>
 </head>
 <body>
 <header class="top"><div class="wrap">
   <a class="brand" href="index.html">sebsilas<span>.</span>com</a>
   <nav class="links" aria-label="Pages">
-    <a href="index.html#about">about</a><a href="index.html#research">research</a><a href="index.html#publications">publications</a><a href="cv.html">cv</a><a href="index.html#contact">contact</a><a class="cta" href="services.html" aria-current="page">services</a>
+    <a href="index.html#about">about</a><a href="index.html#research">research</a><a href="index.html#publications">publications</a><a href="cv.html" aria-current="page">cv</a><a href="index.html#contact">contact</a><a class="cta" href="services.html">services</a>
   </nav>
 </div></header>
-
 <main class="wrap">
-  <div class="sv-hero">
-    <div class="label">Services · consulting &amp; collaboration</div>
-    <h1>What can I do for you?</h1>
-    <p>Need help with a project that involves how people hear, remember, learn, or respond to music? I work with researchers, educators, and companies on everything from study design to deployed software.</p>
-    <a class="back" href="index.html">← back to the research profile</a>
+  <div class="cv-head">
+    <div><div class="label">Curriculum vitae</div><h1 style="margin-top:10px"><span class="dr">Dr.</span>Seb Silas</h1>
+    <div class="tag">Postdoctoral Researcher · Data Scientist · Programmer · Lead Lecturer</div></div>
+    <div class="cl"><a href="mailto:sebsilas@gmail.com">sebsilas@gmail.com</a><a href="https://github.com/sebsilas">github.com/sebsilas</a><a href="https://www.linkedin.com/in/seb-silas-03b0bb124/">linkedin.com/in/seb-silas</a><a href="index.html">sebsilas.com</a></div>
   </div>
-
-  <section id="services" style="padding-top:40px">
-    <div class="sh"><div class="label">Services</div><h2>Ways I can help</h2></div>
-    <div class="svc">
-      <article style="--c:var(--blue)"><h3>Research design &amp; experiments</h3><p>Designing and running studies on music perception, memory, and learning, in the lab or online at scale.</p><span class="ex">study and experimental design · online testing</span></article>
-      <article style="--c:var(--green)"><h3>Statistical modelling &amp; data analysis</h3><p>Turning behavioural and audience data into clear answers, with models suited to the question.</p><span class="ex">statistical modelling · machine learning · visualisation</span></article>
-      <article style="--c:var(--orange)"><h3>Test &amp; assessment development</h3><p>Building and validating musical ability tests and listening tests, including adaptive tests that measure efficiently.</p><span class="ex">psychometrics · item response theory · adaptive testing</span></article>
-      <article style="--c:var(--purple)"><h3>Sonic branding research</h3><p>Measuring how audiences respond to sonic logos and brand music: what they remember, recognise, and feel.</p><span class="ex">recall &amp; recognition · emotional fit · audience testing</span></article>
-      <article style="--c:var(--blue)"><h3>Music learning technology</h3><p>Apps, adaptive training systems, and testing platforms for learning music, built and deployed in the cloud.</p><span class="ex">adaptive training · web apps · data products</span></article>
-      <article style="--c:var(--green)"><h3>Teaching, talks &amp; workshops</h3><p>Guest lectures, workshops, and talks on the psychology of music, musical memory, and learning by ear.</p><span class="ex">psychology of music · playing by ear · methods</span></article>
-    </div>
-  </section>
-
-  <section>
-    <div class="sh"><div class="label">Who I work with</div><h2>Academia and industry</h2></div>
-    <div class="who">
-      <p>I combine a background as a jazz saxophonist with training in psychology, cognitive neuroscience, and systematic musicology, so I can talk to musicians, scientists, and product teams in their own terms.</p>
-      <ul>
-        <li>Universities and research institutes</li>
-        <li>Music schools and educators</li>
-        <li>Brands, agencies, and media companies</li>
-        <li>Music technology startups</li>
-      </ul>
-    </div>
-  </section>
-
-  <section id="contact">
-    <div class="ask">
-      <div class="label">Get in touch</div>
-      <h2>Tell me about your project</h2>
-      <p>Send me an email and I'll get back to you. It helps to include:</p>
-      <ol><li>what you're trying to find out or build</li><li>your timeline</li><li>any data or materials you already have</li></ol>
-      <div class="mail"><code id="email">sebsilas@gmail.com</code><button type="button" id="copy">copy</button></div>
-      <a class="btn" href="mailto:sebsilas@gmail.com?subject=Project%20enquiry%20via%20sebsilas.com">Email me</a>
-    </div>
-  </section>
-
-  <footer><span>© Sebastian Silas</span><a href="index.html">sebsilas.com</a></footer>
+  <p class="cv-profile">Postdoctoral Researcher at the Institute of Systematic Musicology, University of Hamburg. My research investigates how musical information is perceived, remembered, learned, and transmitted, combining music psychology, cognitive science, systematic musicology, and computational modelling. Alongside academic research, I work as a data scientist and musicologist for SoundOut and teach Psychology of Music at BIMM University London.</p>
+  <nav class="cv-toc" aria-label="CV sections"><a href="#current">current roles</a><a href="#previous">previous roles</a><a href="#freelance">consulting</a><a href="#education">education</a><a href="#awards">awards</a><a href="#pubs">publications</a><a href="#talks">talks</a></nav>
+  <section class="cv-sec" id="current" style="--c:var(--blue)"><h2 class="cv-h">Current roles</h2><div class="cv-b"><div class="ent"><div class="yr">2026–present</div><div class="bd"><h3>Postdoctoral Researcher</h3><div class="org">Institute of Systematic Musicology, University of Hamburg</div><p>Statistical modelling of the development of musical abilities across the teenage years, and development of musical learning tools.</p></div></div><div class="ent"><div class="yr">2022–present</div><div class="bd"><h3>Data Scientist</h3><div class="org">SoundOut / DataZ</div><p>Sonic branding research and data products using DevOps/MLOps, R, AWS, and machine learning.</p></div></div><div class="ent"><div class="yr">2022–present</div><div class="bd"><h3>Lead Lecturer, Psychology of Music</h3><div class="org">BIMM University, London</div><p>Designed and maintain a new Psychology of Music course.</p></div></div></div></section>
+  <section class="cv-sec" id="previous" style="--c:var(--green)"><h2 class="cv-h">Previous roles</h2><div class="cv-b"><div class="ent"><div class="yr">2023–2025</div><div class="bd"><h3>Project Manager, Data Scientist, Programmer</h3><div class="org">Diaes4All Project, University of Tübingen</div><p>Co-managed the research project and built the technical architecture to track users’ learning of musical items over time.</p></div></div><div class="ent"><div class="yr">2020–2025</div><div class="bd"><h3>PhD Researcher</h3><div class="org">Hochschule für Musik, Theater und Medien Hannover</div><p>Project: <i>Playing by Ear: A Computational Approach</i>.</p></div></div><div class="ent"><div class="yr">2022</div><div class="bd"><h3>Research Scientist</h3><div class="org">Goldsmiths, University of London</div><p>Analysed large datasets and authored academic manuscripts.</p></div></div><div class="ent"><div class="yr">2017–2023</div><div class="bd"><h3>Company Director, Tutor of Saxophone and Piano</h3><div class="org">Hop Music, London</div><p>Managed company operations and music tuition.</p></div></div></div></section>
+  <section class="cv-sec" id="freelance" style="--c:var(--orange)"><h2 class="cv-h">Freelance programming &amp; data science <span style="display:block;color:var(--muted);letter-spacing:.04em;text-transform:none;font-weight:400">2020–present</span></h2><div class="cv-b"><div class="ent"><div class="yr">2023</div><div class="bd"><h3>Programmer</h3><div class="org">Max Planck Institute</div><p>Created a Rhythm Tapping Test and adapted a singing test for children.</p></div></div><div class="ent"><div class="yr">2023</div><div class="bd"><h3>Data Scientist, Programmer</h3><div class="org">ABCD Study</div><p>Developed gamified test infrastructure for a large-scale brain development study.</p></div></div><div class="ent"><div class="yr">2021</div><div class="bd"><h3>Programmer</h3><div class="org">AIRS Singing Project, University of Prince Edward Island</div><p>Built test infrastructure for singing research.</p></div></div><div class="ent"><div class="yr">2021</div><div class="bd"><h3>Programmer</h3><div class="org">Western Sydney University</div><p>Prepared tutorials for psychological test implementation.</p></div></div></div></section>
+  <section class="cv-sec" id="education" style="--c:var(--purple)"><h2 class="cv-h">Education</h2><div class="cv-b"><div class="ent"><div class="yr">2020–2025</div><div class="bd"><h3>PhD, Systematic Musicology</h3><div class="org">Hochschule für Musik, Theater und Medien Hannover</div><p>Thesis: <i>Playing by Ear: A Computational Approach</i> (2026).</p></div></div><div class="ent"><div class="yr">2019–2020</div><div class="bd"><h3>MSc Computational Cognitive Neuroscience</h3><div class="org">Goldsmiths, University of London</div><p>First class honours. Thesis: <i>Predicting production from dirty data: Psychometric and Big Data approaches to melodic production.</i></p></div></div><div class="ent"><div class="yr">2016–2019</div><div class="bd"><h3>BSc Psychology with Cognitive Neuroscience</h3><div class="org">Goldsmiths, University of London</div><p>First class honours. Thesis: <i>Does musical training improve general working memory? A causal modelling approach.</i></p></div></div><div class="ent"><div class="yr">2011–2014</div><div class="bd"><h3>BA Music (Jazz Saxophone Performance)</h3><div class="org">Middlesex University, London</div><p>Upper second-class honours.</p></div></div></div></section>
+  <section class="cv-sec" id="awards" style="--c:var(--orange)"><h2 class="cv-h">Awards &amp; scholarships</h2><div class="cv-b"><div class="ent"><div class="yr">2024</div><div class="bd"><h3>Douglas C. West Advertising Creative Article Award</h3><div class="org">Advertising Research Foundation</div><p>For the sonic branding paper <a href="https://doi.org/10.2501/JAR-2024-013">“Musical Manipulation of Visual Scenes in Video, Film and TV Advertisements: A Large-Scale Investigation into the Implicit Effects of Sonic Branding”</a>.</p></div></div><div class="ent"><div class="yr">2022–2024</div><div class="bd"><h3>PhD Scholarship</h3><div class="org">Studienstiftung des deutschen Volkes</div><p>€71,200 doctoral scholarship for highly qualified researchers.</p></div></div><div class="ent"><div class="yr">2020–2021</div><div class="bd"><h3>PhD Scholarship</h3><div class="org">DAAD</div><p>€14,935 one-year doctoral scholarship for international research exchange.</p></div></div></div></section>
+  <section class="cv-sec" id="pubs" style="--c:var(--blue)"><h2 class="cv-h">Publications</h2><div class="cv-b"><div class="sub">Journal articles &amp; thesis</div><ul class="refs"><li><span class="yr">2026</span><span><b>Silas, S.</b>, Robinson, M., Baker, D., Harrison, P. M. C., Jacoby, N., &amp; Müllensiefen, D. (2026). The recall and recognition of sonic logos. <i>Psychology of Aesthetics, Creativity, and the Arts</i>. <a class="lk" href="https://doi.org/10.1037/aca0000870">doi ↗</a></span></li><li><span class="yr">2026</span><span><b>Silas, S.</b>, Baker, D., Sachet, A., &amp; Müllensiefen, D. (2026). An unsupervised feature selection approach for finding diverse emotional-semantic representations in sonic branding music. <i>Journal of New Music Research</i>. <a class="lk" href="https://doi.org/10.1080/09298215.2025.2607362">doi ↗</a></span></li><li><span class="yr">2026</span><span><b>Silas, S.</b> (2026). <i>Playing by ear: A computational approach</i> [Doctoral thesis]. University of Music, Drama and Media Hanover.</span></li><li><span class="yr">2024</span><span><b>Silas, S.</b>, Baker, D., &amp; Müllensiefen, D. (2024). Musical manipulation of visual scenes in video, film and TV advertisements: A large-scale investigation into the implicit effects of sonic branding. <i>Journal of Advertising Research</i>. <a class="lk" href="https://doi.org/10.2501/JAR-2024-013">doi ↗</a></span></li><li><span class="yr">2023</span><span><b>Silas, S.</b>, Müllensiefen, D., &amp; Kopiez, R. (2023). Singing Ability Assessment: Development and validation of a singing test based on item response theory and a general open-source software environment for singing data. <i>Behavior Research Methods</i>. <a class="lk" href="https://doi.org/10.3758/s13428-023-02188-0">doi ↗</a></span></li><li><span class="yr">2023</span><span><b>Silas, S.</b>, &amp; Müllensiefen, D. (2023). Learning and recalling melodies: A computational investigation using the melodic recall paradigm. <i>Music Perception</i>. <a class="lk" href="https://doi.org/10.1525/mp.2023.41.2.77">doi ↗</a></span></li><li><span class="yr">2022</span><span><b>Silas, S.</b>, Müllensiefen, D., Gelding, R., Frieler, K., &amp; Harrison, P. M. C. (2022). The associations between music training, musical working memory, and visuospatial working memory: An opportunity for causal modeling. <i>Music Perception, 39</i>(4), 401–420. <a class="lk" href="https://doi.org/10.1525/mp.2022.39.4.401">doi ↗</a></span></li><li><span class="yr">2022</span><span>Tsigeman, E., <b>Silas, S.</b>, Frieler, K., et al. (2022). The Jack and Jill adaptive working memory task: Construction, calibration and validation. <i>PLOS ONE, 17</i>(1), e0262200. <a class="lk" href="https://doi.org/10.1371/journal.pone.0262200">doi ↗</a></span></li><li><span class="yr">2021</span><span>Gelding, R. W., Harrison, P. M. C., <b>Silas, S.</b>, Johnson, B. W., Thompson, W. F., &amp; Müllensiefen, D. (2021). An efficient and adaptive test of auditory mental imagery. <i>Psychological Research, 85</i>(3), 1201–1220. <a class="lk" href="https://doi.org/10.1007/s00426-020-01322-3">doi ↗</a></span></li></ul><div class="sub">Under review &amp; in preparation</div><ul class="refs"><li><span class="yr">—</span><span><b>Silas, S.</b>, Frieler, K., &amp; Müllensiefen, D. Development of a melodic similarity algorithm for short recalled melodies. <span class="st">Under review</span></span></li><li><span class="yr">—</span><span>Wycisk, Y., Sander, K., <b>Silas, S.</b>, et al. Immersed in all senses? Psychophysiological effects of 3D audio music. <span class="st">In preparation</span></span></li></ul></div></section>
+  <section class="cv-sec" id="talks" style="--c:var(--green)"><h2 class="cv-h">Conference talks</h2><div class="cv-b"><ul class="refs"><li><span class="yr">2024</span><span><b>Silas, S.</b>, Robinson, M., Baker, D., Müllensiefen, D., Harrison, P. M. C., &amp; Jacoby, N. The recall-recognition paradox? A multi-paradigm approach to exploring the memorability of sonic logos. 12th Triennial Conference of ESCOM, York, UK. <a class="lk" href="https://doi.org/10.25364/602.2024.3">doi ↗</a></span></li><li><span class="yr">2024</span><span><b>Silas, S.</b>, Müllensiefen, D., &amp; Kopiez, R. Adaptive training in singing and playing by ear: Enhancing long-term retention through computational item selection. 36th ISME World Conference, Helsinki.</span></li><li><span class="yr">2024</span><span><b>Silas, S.</b>, Müllensiefen, D., &amp; Kopiez, R. The Musical DASH Model: A computational approach to learning new melodic material. 41st Annual Conference of the German Society for Music Psychology, Munich.</span></li><li><span class="yr">2023</span><span><b>Silas, S.</b> Adaptive Training: A system for longitudinal research on music learning. LongGold Workshop, Hanover. <a class="lk" href="https://www.youtube.com/watch?v=gwro_UWAbTw">watch ↗</a></span></li><li><span class="yr">2023</span><span><b>Silas, S.</b> Make it fun! Gamifying music listening tests. LongGold Workshop, Hanover. <a class="lk" href="https://www.youtube.com/watch?v=dmDrZg0R0ZU">watch ↗</a></span></li><li><span class="yr">2023</span><span><b>Silas, S.</b>, &amp; Frieler, K. The musicassessr ecosystem: Record, measure, score and present feedback about musical production behaviour in real-time, supported by psychometric models. Deutsche Gesellschaft für Musikpsychologie, Hanover.</span></li><li><span class="yr">2023</span><span><b>Silas, S.</b>, Müllensiefen, D., &amp; Kopiez, R. Utilising a new generation of musical production tests to understand musical learning: Singing ability assessment, melodic recall and playing by ear. Deutsche Gesellschaft für Musikpsychologie, Hanover.</span></li><li><span class="yr">2022</span><span><b>Silas, S.</b>, Baker, D., &amp; Müllensiefen, D. Changing the emotional-semantic perception of visual scenes with music: A large-scale investigation into the effects of sonic branding. Deutsche Gesellschaft für Musikpsychologie, Würzburg.</span></li><li><span class="yr">2021</span><span><b>Silas, S.</b> Construction and validation of the Melody Singing Task using explanatory item response theory modelling. ESCOM, online. <a class="lk" href="https://youtu.be/_sorkoH7qSA">watch ↗</a></span></li><li><span class="yr">2021</span><span><b>Silas, S.</b>, Kopiez, R., &amp; Müllensiefen, D. What makes playing by ear difficult? SEMPRE Conference.</span></li><li><span class="yr">2019</span><span><b>Silas, S.</b>, Müllensiefen, D., Gelding, R., Harrison, P. M. C., &amp; Frieler, K. Does musical training improve general working memory? A causal modelling approach to the associations between general working memory, musical working memory and musical training. Deutsche Gesellschaft für Musikpsychologie, Eichstätt.</span></li></ul></div></section>
+  <footer><span>© Sebastian Silas · CV, June 2026</span><a href="index.html">sebsilas.com</a></footer>
 </main>
 <script>
 document.querySelectorAll('a[href^="http"]').forEach(a=>{if(a.host!==location.host){a.target='_blank';a.rel='noopener noreferrer'}});
-document.getElementById('copy').addEventListener('click',e=>{const t=document.getElementById('email').textContent;const b=e.currentTarget;
-  const ok=()=>{b.textContent='copied';setTimeout(()=>b.textContent='copy',1600)};
-  const sel=()=>{const r=document.createRange();r.selectNodeContents(document.getElementById('email'));const s=getSelection();s.removeAllRanges();s.addRange(r);b.textContent='selected'};
-  try{navigator.clipboard.writeText(t).then(ok,sel)}catch(_){sel()}});
 </script>
 </body>
 </html>

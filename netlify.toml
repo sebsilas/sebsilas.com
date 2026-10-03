@@ -1,3 +1,3 @@
 [build]
   publish = "public"
-  command = "rm -rf public && mkdir public && cp -R index.html services.html pubs.json img public/"
+  command = "rm -rf public && mkdir public && cp -R index.html services.html cv.html pubs.json img public/"
